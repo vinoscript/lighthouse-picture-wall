@@ -14,12 +14,23 @@ body {
       border-radius: 20px;
       background-color: white;
       box-shadow: 10px 10px 5px #888888; }
+      body #team-members .member:hover {
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg); }
       body #team-members .member img {
         width: 200px;
         height: 200px;
         border-radius: 20px; }
         body #team-members .member img:hover {
-          content: url(../images/animals/giraffe.jpeg); }
+          content: url(../images/animals/giraffe.jpeg);
+          -webkit-transform: rotate(-10deg);
+          -moz-transform: rotate(-10deg);
+          -o-transform: rotate(-10deg);
+          -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
       body #team-members .member div.name {
         text-align: center; }
 
