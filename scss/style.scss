@@ -40,7 +40,6 @@ body {
 
         &:hover {
           content: url(../images/animals/giraffe.jpeg);
-          @include rotate;
         }
       }  
 
