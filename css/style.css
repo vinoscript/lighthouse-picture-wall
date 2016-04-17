@@ -13,6 +13,8 @@ body {
       body #team-members .member img {
         width: 200px;
         height: 200px; }
+        body #team-members .member img:hover {
+          -webkit-filter: blur(5px); }
       body #team-members .member div.name {
         text-align: center; }
 
