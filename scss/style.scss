@@ -3,6 +3,7 @@ $primaryColor: #FF0000;
 body {
   font-family: Verdana;
   font-size: 1.5em;
+  background-color: hsla(42, 19%, 67%, 0.24);
 
   h1 {
     color: $primaryColor;
@@ -13,13 +14,17 @@ body {
 
     .member {
       float: left;
-      /*border: 1px solid gray;*/
       margin: 10px;
       padding: 6px;
+      border: 1px solid black;
+      border-radius: 20px;
+      background-color: white;
+      box-shadow: 10px 10px 5px #888888;
 
       img {
         width: 200px;
         height: 200px;
+        border-radius: 20px;
 
         &:hover {
           content: url(../images/animals/giraffe.jpeg);
